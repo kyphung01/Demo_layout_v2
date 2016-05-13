@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_chapters"
+        android:divider="@drawable/design_listview"
+        android:dividerHeight="2dp"
+        android:background="#171A21"
+        android:cacheColorHint="#00000000"
+        android:layerType="software"/>
+</LinearLayout>

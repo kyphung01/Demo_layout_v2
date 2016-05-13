@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context="vn.thai.demolayout.DetailActivity"
+    android:padding="8dp"
+    android:background="#1F262E">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="@dimen/img_w"
+            android:layout_height="@dimen/img_h"
+            android:src="@drawable/img1"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/img_display"
+            android:scaleType="centerCrop"
+            android:background="@drawable/design_image"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_display"
+            android:layout_margin="10dp"
+            android:stretchColumns="2">
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Author"
+                    android:textColor="#D2E9F9"
+                    android:textSize="@dimen/text_size"/>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FUKUDA SHINICHI"
+                    android:singleLine="false"
+                    android:lines="2"
+                    android:textColor="#6C7175"
+                    android:id="@+id/txt_author"
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginLeft="@dimen/text_margin"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter"
+                    android:textColor="#D2E9F9"
+                    android:textSize="@dimen/text_size"/>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500"
+                    android:singleLine="false"
+                    android:textColor="#6C7175"
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginLeft="@dimen/text_margin"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:textColor="#D2E9F9"
+                    android:textSize="@dimen/text_size"/>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="On Going"
+                    android:singleLine="false"
+                    android:textColor="#6C7175"
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginLeft="@dimen/text_margin"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ranking"
+                    android:textColor="#D2E9F9"
+                    android:textSize="@dimen/text_size"/>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:singleLine="false"
+                    android:textColor="#6C7175"
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginLeft="@dimen/text_margin"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:layout_below="@+id/img_display"
+            android:id="@+id/txt_1"
+            android:textColor="#D2E9F9"
+            android:layout_marginTop="20dp"
+            android:textSize="@dimen/text_size"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_1"
+            android:text="Action, Adult, Comedy, Ecchi, Harem, Lolicon, Romance, School Life, Shounen, Smut"
+            android:singleLine="false"
+            android:layout_marginTop="10dp"
+            android:textColor="#6C7175"
+            android:id="@+id/txt_2"
+            android:textSize="@dimen/text_size"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:layout_below="@+id/txt_2"
+            android:textColor="#D2E9F9"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt_3"
+            android:textSize="@dimen/text_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_3"
+            android:textSize="@dimen/text_size"
+            android:text="Tosa là chủ cửa hàng điện máy Heiwa sống cùng với 3 đứa con và vợ của mình.
+    Điểm hấp dẫn ở đây ông bố là cựu nhân viên của Nasa và cà nhà đều có tài năng về máy móc, nhất là cô bé út.
+    Ngoài ra những sáng chế của bố con nhà này đa phần đều gây ra rắc rối...
+
+    Thông minh, hài hước nhưng trên hết đọng lại trong câu chuyện là tình cảm và mối quan hệ trong gia đình Heiwa. UpTruyen sẽ giới thiệu đủ bộ của tác phẩm dễ thương này, các bạn ủng hộ nha,
+    4 tập đầu tiên mời các bạn theo dõi tại địa chỉ : http://uptruyen.com/manga/32937/comedy/vua-sang-che-ban-dep.html
+    Các tập tiếp theo đến hết sẽ đăng tại đây. Mời các bạn theo dõi Omakase! Peace Denkiten - Vua Sáng Chế"
+            android:singleLine="false"
+            android:layout_marginTop="10dp"
+            android:textColor="#6C7175" />
+        </RelativeLayout>
+
+</ScrollView>

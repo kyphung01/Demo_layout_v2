@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:fitsSystemWindows="true"
+        tools:context=".MainActivity"
+        android:background="#EEEEEE">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:id="@+id/toolbar"
+            android:background="#222222"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextColor="#31B5E7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="MangaReader, 4108 manga"
+            android:background="#79C4DB"
+            android:textColor="#ffffff"
+            android:padding="3dp"
+            android:gravity="center_vertical"/>
+        <GridView
+            android:id="@+id/grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:columnWidth="@dimen/column_w"
+            android:gravity="center"
+            android:stretchMode="columnWidth"/>
+
+
+    </LinearLayout>
+    <include layout="@layout/floating_action_menu"/>
+
+</FrameLayout>

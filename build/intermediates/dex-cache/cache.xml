@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android_Project\DemoLayout\app\build\intermediates\exploded-aar\com.github.clans\fab\1.6.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7e6a161b3796c15fe00755ce47e03067e568ecc4">
+        <dex dex="D:\Android_Project\DemoLayout\app\build\intermediates\pre-dexed\debug\classes-60558a057656ce3ecd5625cb1b057b76c962d642.jar" />
+    </item>
+
+</items>
